@@ -6,8 +6,8 @@ app = Flask(__name__)
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 587
 app.config["MAIL_USE_TLS"] = True
-app.config["MAIL_USERNAME"] = "dcartoon560@gmail.com"
-app.config["MAIL_PASSWORD"] = "rzws xlgk jknm xrgq"
+app.config["MAIL_USERNAME"] = ""
+app.config["MAIL_PASSWORD"] = ""
 mail = Mail(app)
 
 
@@ -43,8 +43,8 @@ def calculator():
             n1 = int(request.form["num1"])
             opr = request.form["opr"]
             n2 = int(request.form["num2"])
-            msg = Message(subject="calculation", sender="thupakulaaishwarya@gmail.com",
-                        recipients=["dcartoon560@gmail.com"]
+            msg = Message(subject="calculation", sender="",
+                        recipients=[""]
                         )
         
             if opr == "add":
