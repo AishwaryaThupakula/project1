@@ -26,3 +26,27 @@
     margin: 2% 0% 0% 25%; 
     text-align: center;
 }
+.login-div{
+    float: left;
+    width: 50%;
+    background-color: coral;
+    margin: 10% 0% 0% 20%;
+}
+.login-div input{
+    float: left;
+    width: 80%;
+    margin: 3% 0% 1% 10%;
+    font-size: 20px;
+}
+.login-div button{
+    float: left;
+    width: 40%;
+    margin: 1% 0% 2% 35%;
+    font-size: 15px;
+}
+.login-div input:focus{
+    background-color: whitesmoke ;
+}
+.login-div button:hover{
+    box-shadow: 10px 10px 10px black;
+}
